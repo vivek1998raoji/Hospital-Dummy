@@ -2,14 +2,14 @@
 
 /* ========== DESIGN SYSTEM V2 — VIVEK HOSPITAL ========== */
 :root {
-  /* Primary Palette */
-  --primary: #0a2540;
-  --primary-light: #1a3a5c;
-  --primary-dark: #061b2e;
-  --accent: #0ea5e9;
-  --accent-dark: #0284c7;
-  --accent-light: #7dd3fc;
-  --accent-glow: rgba(14, 165, 233, 0.12);
+  /* Primary Palette — Marengo Asia Hospitals brand (blue #007dc6 + orange #ff6f0f) */
+  --primary: #003a5d;
+  --primary-light: #007dc6;
+  --primary-dark: #00243a;
+  --accent: #ff6f0f;
+  --accent-dark: #e05e00;
+  --accent-light: #ff9d52;
+  --accent-glow: rgba(255, 111, 15, 0.12);
 
   /* Semantic Colors */
   --success: #10b981;
@@ -36,10 +36,10 @@
   --gray-900: #0f172a;
 
   /* Gradients */
-  --gradient-hero: linear-gradient(135deg, #0a2540 0%, #0c4a6e 40%, #0ea5e9 100%);
-  --gradient-hero-alt: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0284c7 100%);
+  --gradient-hero: linear-gradient(135deg, #00243a 0%, #005f97 45%, #007dc6 100%);
+  --gradient-hero-alt: linear-gradient(135deg, #001d23 0%, #003a5d 50%, #007dc6 100%);
   --gradient-card: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
-  --gradient-accent: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+  --gradient-accent: linear-gradient(135deg, #ff6f0f 0%, #ff9137 100%);
   --gradient-warm: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
   --gradient-emerald: linear-gradient(135deg, #10b981 0%, #059669 100%);
   --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
@@ -72,8 +72,8 @@
   --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.05);
   --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.05);
   --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,0.15);
-  --shadow-glow: 0 0 20px rgba(14,165,233,0.15);
-  --shadow-card-hover: 0 20px 40px -12px rgba(14,165,233,0.15), 0 8px 16px -8px rgba(0,0,0,0.1);
+  --shadow-glow: 0 0 20px rgba(255,111,15,0.15);
+  --shadow-card-hover: 0 20px 40px -12px rgba(255,111,15,0.15), 0 8px 16px -8px rgba(0,0,0,0.1);
 
   /* Transitions */
   --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -148,7 +148,7 @@ ul, ol { list-style: none; }
   padding: 6px 16px;
   background: var(--accent-glow);
   border-radius: var(--radius-full);
-  border: 1px solid rgba(14,165,233,0.15);
+  border: 1px solid rgba(255,111,15,0.15);
 }
 
 .section-eyebrow--light {
@@ -368,11 +368,11 @@ ul, ol { list-style: none; }
 .btn-primary {
   background: var(--gradient-accent);
   color: white;
-  box-shadow: 0 4px 14px rgba(14,165,233,0.3);
+  box-shadow: 0 4px 14px rgba(255,111,15,0.3);
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(14,165,233,0.4);
+  box-shadow: 0 8px 25px rgba(255,111,15,0.4);
   color: white;
 }
 
@@ -488,7 +488,7 @@ ul, ol { list-style: none; }
   width: 700px;
   height: 700px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(14,165,233,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,111,15,0.15) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -687,7 +687,7 @@ ul, ol { list-style: none; }
 .badge--red { background: #fee2e2; color: #dc2626; }
 .badge--purple { background: #f3e8ff; color: #7c3aed; }
 .badge--gray { background: var(--gray-100); color: var(--gray-600); }
-.badge--accent { background: var(--accent-glow); color: var(--accent-dark); border: 1px solid rgba(14,165,233,0.15); }
+.badge--accent { background: var(--accent-glow); color: var(--accent-dark); border: 1px solid rgba(255,111,15,0.15); }
 
 .badge--popular {
   background: var(--gradient-warm);
@@ -787,7 +787,7 @@ ul, ol { list-style: none; }
 
 /* ========== STATS STRIP REDESIGN ========== */
 .stats-strip {
-  background: linear-gradient(180deg, #0a2540 0%, #061b2e 100%);
+  background: linear-gradient(180deg, #003a5d 0%, #00243a 100%);
   padding: 80px 0;
   position: relative;
   overflow: hidden;
@@ -802,7 +802,7 @@ ul, ol { list-style: none; }
   left: 10%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(14, 165, 233, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,111,15, 0.08) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -922,7 +922,7 @@ ul, ol { list-style: none; }
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(14,165,233,0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,111,15,0.2) 0%, transparent 70%);
 }
 .cta-banner h2 {
   font-family: var(--font-display);
@@ -1234,7 +1234,7 @@ ul, ol { list-style: none; }
 .page-header-section h1 { font-family: var(--font-display); font-size: clamp(32px, 4vw, 48px); font-weight: 700; margin-bottom: var(--space-md); text-shadow: 0 2px 12px rgba(0,0,0,0.2); position: relative; }
 .page-header-section p { font-size: 17px; opacity: 0.8; max-width: 600px; margin: 0 auto; position: relative; }
 
-.section-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: var(--space-md); padding: 6px 16px; background: var(--accent-glow); border-radius: var(--radius-full); border: 1px solid rgba(14,165,233,0.15); }
+.section-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: var(--space-md); padding: 6px 16px; background: var(--accent-glow); border-radius: var(--radius-full); border: 1px solid rgba(255,111,15,0.15); }
 .section-header { text-align: center; margin-bottom: var(--space-3xl); max-width: 680px; margin-left: auto; margin-right: auto; }
 .section-header h2 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 42px); font-weight: 700; color: var(--gray-900); line-height: 1.2; margin-bottom: var(--space-md); }
 .section-header p { font-size: 16px; color: var(--gray-500); line-height: 1.7; }

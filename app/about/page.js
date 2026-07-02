@@ -51,7 +51,7 @@ export default async function AboutPage() {
   }
 
   const leaders = [
-    { name: 'Dr. Naresh Trehan', role: 'Chairman & Managing Director', icon: '👨‍⚕️', color: '#0ea5e9', bio: 'World-renowned cardiovascular surgeon and founder of Marengo Asia Hospitals. Padma Bhushan awardee with 48+ years of experience.' },
+    { name: 'Dr. Naresh Trehan', role: 'Chairman & Managing Director', icon: '👨‍⚕️', color: '#007dc6', bio: 'World-renowned cardiovascular surgeon and founder of Marengo Asia Hospitals. Padma Bhushan awardee with 48+ years of experience.' },
     { name: 'Mr. Rajiv Kumar', role: 'Chief Executive Officer', icon: '👔', color: '#6366f1', bio: 'Seasoned healthcare administrator with 25+ years of experience in hospital management and strategic growth.' },
     { name: 'Dr. Sanjay Sharma', role: 'Medical Director', icon: '🩺', color: '#10b981', bio: 'Leading physician overseeing clinical quality, patient safety, and medical governance across all hospital locations.' },
     { name: 'Ms. Priya Mehta', role: 'Chief Operating Officer', icon: '📊', color: '#f59e0b', bio: 'Experienced operations leader driving efficiency, technology adoption, and patient experience transformation.' },
@@ -113,7 +113,7 @@ export default async function AboutPage() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
               <div style={{
                 width: '56px', height: '56px', borderRadius: 'var(--radius-full)',
-                background: 'linear-gradient(135deg, #0ea5e9, #6366f1)',
+                background: 'linear-gradient(135deg, #007dc6, #6366f1)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: '22px', fontWeight: 800, color: 'white',
               }}>NT</div>
