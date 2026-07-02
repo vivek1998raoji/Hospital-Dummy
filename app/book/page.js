@@ -196,8 +196,8 @@ function BookingForm() {
           <label className="form-label">Hospital Location *</label>
           <select className="form-select" required value={form.hospital} onChange={e => setForm({...form, hospital: e.target.value})}>
             <option value="">Select Hospital</option>
-            <option>Gurugram</option><option>Lucknow</option><option>Patna</option>
-            <option>Indore</option><option>Noida</option><option>Ranchi</option>
+            <option>Gurugram</option><option>Faridabad</option>
+            <option>Ahmedabad</option><option>Bhuj</option>
           </select>
         </div>
       </div>

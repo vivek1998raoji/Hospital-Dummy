@@ -25,7 +25,7 @@ export default async function AdminDashboard() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px' }}>
         <div>
           <h1 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--gray-900)', marginBottom: '8px' }}>Dashboard</h1>
-          <p style={{ color: 'var(--gray-500)' }}>Welcome to the Vivek Hospital Admin Panel</p>
+          <p style={{ color: 'var(--gray-500)' }}>Welcome to the Marengo Asia Hospitals Admin Panel</p>
         </div>
       </div>
 

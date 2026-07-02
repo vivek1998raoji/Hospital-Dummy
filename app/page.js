@@ -21,7 +21,7 @@ export async function generateMetadata() {
     });
     if (page) {
       return {
-        title: page.metaTitle || "Vivek Hospital - India's Most Trusted Hospital Network",
+        title: page.metaTitle || "Marengo Asia Hospitals - India's Most Trusted Hospital Network",
         description: page.metaDescription || "India's leading super-speciality hospital network offering world-class care.",
         keywords: page.metaKeywords || "hospital, healthcare, cardiac care, bypass surgery"
       };
@@ -30,8 +30,8 @@ export async function generateMetadata() {
     // Fallback
   }
   return {
-    title: "Vivek Hospital - India's Most Trusted Hospital Network",
-    description: "Vivek Hospital is India's leading multi-super-speciality hospital network with 1600+ beds, 800+ doctors, and 45+ specialities across 6 locations.",
+    title: "Marengo Asia Hospitals - India's Most Trusted Hospital Network",
+    description: "Marengo Asia Hospitals is India's leading multi-super-speciality hospital network with 1600+ beds, 800+ doctors, and 45+ specialities across 6 locations.",
     keywords: "hospital, healthcare, cardiac surgery, neurosurgery, cancer treatment, organ transplant, India"
   };
 }
@@ -243,7 +243,7 @@ export default async function Home() {
                     }}>🏥</div>
                   )}
                   <div>
-                    <h3 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--gray-900)' }}>Vivek Hospital, {loc.name}</h3>
+                    <h3 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--gray-900)' }}>Marengo Asia Hospitals, {loc.name}</h3>
                     <span className="badge badge--accent" style={{ marginTop: '4px' }}>{loc.beds} Beds</span>
                   </div>
                 </div>
@@ -360,7 +360,7 @@ export default async function Home() {
           <div className="section-header">
             <div className="section-eyebrow">💬 Patient Stories</div>
             <h2 className="section-title">Trusted by Millions</h2>
-            <p className="section-subtitle">Real stories from real patients who found hope, healing, and world-class care at Vivek Hospital</p>
+            <p className="section-subtitle">Real stories from real patients who found hope, healing, and world-class care at Marengo Asia Hospitals</p>
           </div>
           <div className="grid-3 grid">
             {testimonials.map((t) => (

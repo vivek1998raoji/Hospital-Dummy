@@ -110,7 +110,7 @@ export default function AdminTreatmentsPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Title</label>
-                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="CABG Bypass Surgery in India | Vivek Hospital" />
+                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="CABG Bypass Surgery in India | Marengo Asia Hospitals" />
                     </div>
                     <div className="form-group">
                       <label className="form-label">SEO Meta Keywords</label>
@@ -118,11 +118,11 @@ export default function AdminTreatmentsPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Canonical URL</label>
-                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://vivekhospital.com/treatments/cabg" />
+                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://marengoasiahospitals.com/treatments/cabg" />
                     </div>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Description</label>
-                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Learn about Coronary Artery Bypass Grafting (CABG) at Vivek Hospital. Access experienced bypass surgeons, pricing packages, and advanced recovery systems." />
+                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Learn about Coronary Artery Bypass Grafting (CABG) at Marengo Asia Hospitals. Access experienced bypass surgeons, pricing packages, and advanced recovery systems." />
                     </div>
                   </div>
 

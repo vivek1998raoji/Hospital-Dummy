@@ -123,7 +123,7 @@ export default function InternationalPatientsPage() {
           <p>Our international patient team is available 24/7 to assist you</p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
             <a href="tel:+911244343434" className="btn btn-white btn-lg">📞 +91-124-4343434</a>
-            <a href="mailto:international@vivekhospital.com" className="btn btn-outline btn-lg" style={{ borderColor: 'rgba(255,255,255,0.3)', color: 'white' }}>📧 Email Us</a>
+            <a href="mailto:international@marengoasiahospitals.com" className="btn btn-outline btn-lg" style={{ borderColor: 'rgba(255,255,255,0.3)', color: 'white' }}>📧 Email Us</a>
           </div>
         </div>
       </section>

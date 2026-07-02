@@ -97,7 +97,7 @@ export default function AdminDoctorsPage() {
             </div>
             <div className="form-group">
               <label className="form-label">Image Alt Text (SEO Accessibility)</label>
-              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Dr. John Doe - Cardiac Surgeon | Vivek Hospital" />
+              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Dr. John Doe - Cardiac Surgeon | Marengo Asia Hospitals" />
             </div>
             <div className="form-group" style={{ gridColumn: '1 / -1' }}>
               <label className="form-label">Qualifications</label>
@@ -121,7 +121,7 @@ export default function AdminDoctorsPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Title</label>
-                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Dr. John Doe - Cardiac Surgeon in Gurugram | Vivek Hospital" />
+                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Dr. John Doe - Cardiac Surgeon in Gurugram | Marengo Asia Hospitals" />
                     </div>
                     <div className="form-group">
                       <label className="form-label">SEO Meta Keywords</label>
@@ -129,7 +129,7 @@ export default function AdminDoctorsPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Canonical URL</label>
-                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://vivekhospital.com/doctors/dr-john-doe" />
+                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://marengoasiahospitals.com/doctors/dr-john-doe" />
                     </div>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Description</label>

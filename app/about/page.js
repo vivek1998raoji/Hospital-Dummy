@@ -11,7 +11,7 @@ export async function generateMetadata() {
     });
     if (page) {
       return {
-        title: page.metaTitle || "About Vivek Hospital - Transforming Lives Since 2000",
+        title: page.metaTitle || "About Marengo Asia Hospitals - Transforming Lives Since 2000",
         description: page.metaDescription || "Learn about our clinical legacy, founders, leadership, and medical milestones.",
         keywords: page.metaKeywords || "about us, medical legacy, hospital history"
       };
@@ -20,7 +20,7 @@ export async function generateMetadata() {
     // Fallback
   }
   return {
-    title: "About Vivek Hospital",
+    title: "About Marengo Asia Hospitals",
     description: "India's most trusted healthcare institution — transforming lives through clinical excellence since 2000",
     keywords: "about us, medical group, Dr Naresh Trehan, hospital history"
   };
@@ -39,7 +39,7 @@ export default async function AboutPage() {
 
   let content = {
     introTitle: "A Vision for World-Class Healthcare in India",
-    introParagraph: "Founded in 2000 by Dr. Naresh Trehan, one of the world's most accomplished cardiovascular surgeons, Vivek Hospital was born from a singular vision: to create a healthcare institution in India that matches and exceeds the best hospitals in the world. What started as a single hospital in Gurugram has grown into India's most trusted multi-super-speciality hospital network spanning 6 cities with over 3,400 beds, 800+ doctors, and 30+ specialities."
+    introParagraph: "Founded in 2000 by Dr. Naresh Trehan, one of the world's most accomplished cardiovascular surgeons, Marengo Asia Hospitals was born from a singular vision: to create a healthcare institution in India that matches and exceeds the best hospitals in the world. What started as a single hospital in Gurugram has grown into India's most trusted multi-super-speciality hospital network spanning 6 cities with over 3,400 beds, 800+ doctors, and 30+ specialities."
   };
 
   if (dbPage && dbPage.content) {
@@ -51,7 +51,7 @@ export default async function AboutPage() {
   }
 
   const leaders = [
-    { name: 'Dr. Naresh Trehan', role: 'Chairman & Managing Director', icon: '👨‍⚕️', color: '#0ea5e9', bio: 'World-renowned cardiovascular surgeon and founder of Vivek Hospital. Padma Bhushan awardee with 48+ years of experience.' },
+    { name: 'Dr. Naresh Trehan', role: 'Chairman & Managing Director', icon: '👨‍⚕️', color: '#0ea5e9', bio: 'World-renowned cardiovascular surgeon and founder of Marengo Asia Hospitals. Padma Bhushan awardee with 48+ years of experience.' },
     { name: 'Mr. Rajiv Kumar', role: 'Chief Executive Officer', icon: '👔', color: '#6366f1', bio: 'Seasoned healthcare administrator with 25+ years of experience in hospital management and strategic growth.' },
     { name: 'Dr. Sanjay Sharma', role: 'Medical Director', icon: '🩺', color: '#10b981', bio: 'Leading physician overseeing clinical quality, patient safety, and medical governance across all hospital locations.' },
     { name: 'Ms. Priya Mehta', role: 'Chief Operating Officer', icon: '📊', color: '#f59e0b', bio: 'Experienced operations leader driving efficiency, technology adoption, and patient experience transformation.' },
@@ -67,7 +67,7 @@ export default async function AboutPage() {
   ];
 
   const milestones = [
-    { year: '2000', event: 'Vivek Hospital founded in Gurugram with a vision to bring world-class healthcare to India' },
+    { year: '2000', event: 'Marengo Asia Hospitals founded in Gurugram with a vision to bring world-class healthcare to India' },
     { year: '2005', event: 'Completed 10,000th cardiac surgery. Launched India\'s first robotic surgery program.' },
     { year: '2010', event: 'Expanded to Lucknow. Crossed 1,000 liver transplants — a global milestone.' },
     { year: '2015', event: 'Opened Patna and Indore hospitals. Launched CyberKnife cancer treatment program.' },
@@ -80,7 +80,7 @@ export default async function AboutPage() {
       <section className="page-header">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div className="breadcrumb"><Link href="/">Home</Link><span className="breadcrumb-sep">/</span><span>About Us</span></div>
-          <h1>About Vivek Hospital</h1>
+          <h1>About Marengo Asia Hospitals</h1>
           <p>India&apos;s most trusted healthcare institution — transforming lives through clinical excellence since 2000</p>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default async function AboutPage() {
               }}>NT</div>
               <div>
                 <p style={{ fontWeight: 700, color: 'var(--gray-900)' }}>Dr. Naresh Trehan</p>
-                <p style={{ fontSize: '13px', color: 'var(--gray-500)' }}>Chairman & Managing Director, Vivek Hospital</p>
+                <p style={{ fontSize: '13px', color: 'var(--gray-500)' }}>Chairman & Managing Director, Marengo Asia Hospitals</p>
               </div>
             </div>
           </div>

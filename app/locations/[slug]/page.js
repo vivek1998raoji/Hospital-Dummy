@@ -44,7 +44,7 @@ export default function LocationDetailPage() {
         // Dynamic client-side SEO update
         if (loc) {
           // Meta Title
-          document.title = loc.metaTitle || `Vivek Hospital, ${loc.name} | Best Multi-Speciality Care`;
+          document.title = loc.metaTitle || `Marengo Asia Hospitals, ${loc.name} | Best Multi-Speciality Care`;
           
           // Meta Description
           let metaDesc = document.querySelector('meta[name="description"]');
@@ -53,7 +53,7 @@ export default function LocationDetailPage() {
             metaDesc.setAttribute('name', 'description');
             document.head.appendChild(metaDesc);
           }
-          metaDesc.setAttribute('content', loc.metaDescription || `Consult leading specialists at Vivek Hospital ${loc.name}. State-of-the-art infrastructure and modular OTs.`);
+          metaDesc.setAttribute('content', loc.metaDescription || `Consult leading specialists at Marengo Asia Hospitals ${loc.name}. State-of-the-art infrastructure and modular OTs.`);
 
           // Meta Keywords
           let metaKeys = document.querySelector('meta[name="keywords"]');
@@ -84,7 +84,7 @@ export default function LocationDetailPage() {
 
           // Open Graph (OG) Tags
           const ogTags = {
-            'og:title': loc.ogTitle || loc.metaTitle || `Vivek Hospital, ${loc.name}`,
+            'og:title': loc.ogTitle || loc.metaTitle || `Marengo Asia Hospitals, ${loc.name}`,
             'og:description': loc.ogDescription || loc.metaDescription || '',
             'og:image': loc.ogImage || loc.image || '',
             'og:type': 'website',
@@ -153,7 +153,7 @@ export default function LocationDetailPage() {
             <Link href="/locations" style={{ color: 'white' }}>Hospitals</Link><span className="breadcrumb-sep">/</span>
             <span>{location.name}</span>
           </div>
-          <h1>Vivek Hospital, {location.name}</h1>
+          <h1>Marengo Asia Hospitals, {location.name}</h1>
           <p style={{ maxWidth: '700px', margin: '12px auto 0', opacity: 0.9 }} dangerouslySetInnerHTML={{ __html: location.description }} />
         </div>
       </section>
@@ -281,7 +281,7 @@ export default function LocationDetailPage() {
       <section className="cta-banner">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <h2>Book an Appointment at {location.name}</h2>
-          <p>Consult our specialists at Vivek Hospital, {location.name}</p>
+          <p>Consult our specialists at Marengo Asia Hospitals, {location.name}</p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
             <Link href={`/book?location=${encodeURIComponent(location.name)}`} className="btn btn-white btn-lg">📅 Book Now</Link>
             <a href={`tel:${location.phone.replace(/-/g, '')}`} className="btn btn-outline btn-lg" style={{ borderColor: 'rgba(255,255,255,0.3)', color: 'white' }}>

@@ -44,7 +44,7 @@ export default function LocationSpecialityDetailPage() {
         
         // Dynamic client-side SEO update
         if (spec.metaTitle) {
-          document.title = `${spec.metaTitle} in ${loc.name} | Vivek Hospital`;
+          document.title = `${spec.metaTitle} in ${loc.name} | Marengo Asia Hospitals`;
           const metaDesc = document.querySelector('meta[name="description"]');
           if (metaDesc) metaDesc.setAttribute('content', spec.metaDescription || '');
         }
@@ -95,7 +95,7 @@ export default function LocationSpecialityDetailPage() {
             <span>{speciality.name}</span>
           </div>
           <div style={{ fontSize: '64px', marginBottom: '16px' }}>{speciality.icon}</div>
-          <h1>{speciality.name} at Vivek Hospital, {location.name}</h1>
+          <h1>{speciality.name} at Marengo Asia Hospitals, {location.name}</h1>
           <p style={{ maxWidth: '700px', margin: '0 auto', marginTop: '12px', fontSize: '18px', opacity: 0.9 }}>
             {content.tagline}
           </p>
@@ -125,7 +125,7 @@ export default function LocationSpecialityDetailPage() {
         <div className="container" style={{ maxWidth: '960px' }}>
           <div className="section-header" style={{ textAlign: 'left', marginLeft: 0, maxWidth: '100%' }}>
             <div className="section-eyebrow">📋 Overview</div>
-            <h2 className="section-title">About {speciality.name} at Vivek Hospital, {location.name}</h2>
+            <h2 className="section-title">About {speciality.name} at Marengo Asia Hospitals, {location.name}</h2>
           </div>
           <div style={{ fontSize: '15px', color: 'var(--gray-600)', lineHeight: 2 }}>
             {content.overview.split('\n\n').map((para, i) => (
@@ -140,7 +140,7 @@ export default function LocationSpecialityDetailPage() {
         <div className="container">
           <div className="section-header">
             <div className="section-eyebrow">🏆 Why Choose Us</div>
-            <h2 className="section-title">Why Choose Vivek Hospital, {location.name}?</h2>
+            <h2 className="section-title">Why Choose Marengo Asia Hospitals, {location.name}?</h2>
           </div>
           <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))' }}>
             {content.whyChoose.map((item, i) => (
@@ -163,7 +163,7 @@ export default function LocationSpecialityDetailPage() {
           <div className="container">
             <div className="section-header">
               <div className="section-eyebrow">👨‍⚕️ Our Specialists in {location.name}</div>
-              <h2 className="section-title">Expert {speciality.name} Doctors at Vivek Hospital, {location.name}</h2>
+              <h2 className="section-title">Expert {speciality.name} Doctors at Marengo Asia Hospitals, {location.name}</h2>
               <p className="section-subtitle">
                 Our local team of renowned specialists brings decades of experience to deliver exceptional outcomes in {location.name}
               </p>

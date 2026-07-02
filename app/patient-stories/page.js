@@ -96,7 +96,7 @@ export default function PatientStoriesPage() {
       <section className="cta-banner">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <h2>Share Your Story</h2>
-          <p>Your experience can inspire others. Tell us about your journey at Vivek Hospital.</p>
+          <p>Your experience can inspire others. Tell us about your journey at Marengo Asia Hospitals.</p>
           <Link href="/contact" className="btn btn-white btn-lg">📝 Share Your Story</Link>
         </div>
       </section>

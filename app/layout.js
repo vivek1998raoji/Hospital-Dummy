@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Vivek Hospital - India\'s Most Trusted Hospital Network',
-  description: 'Vivek Hospital is India\'s leading multi-super-speciality hospital network with 1600+ beds, 800+ doctors, and 45+ specialities across 6 locations. World-class healthcare in cardiac sciences, neurosciences, oncology, organ transplant, and more.',
+  title: 'Marengo Asia Hospitals - India\'s Most Trusted Hospital Network',
+  description: 'Marengo Asia Hospitals is India\'s leading multi-super-speciality hospital network with 1600+ beds, 800+ doctors, and 45+ specialities across 6 locations. World-class healthcare in cardiac sciences, neurosciences, oncology, organ transplant, and more.',
   keywords: 'hospital, healthcare, cardiac surgery, neurosurgery, cancer treatment, organ transplant, India, Gurugram',
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             <div className="footer-grid">
               <div>
                 <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ fontSize: '24px' }}>🏥</span> Vivek Hospital
+                  <span style={{ fontSize: '24px' }}>🏥</span> Marengo Asia Hospitals
                 </h4>
                 <p style={{ marginBottom: '20px' }}>
                   India&apos;s most trusted hospital network delivering world-class healthcare since 2000.
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
                 <h4>Contact Info</h4>
                 <ul className="footer-links">
                   <li style={{ marginBottom: '16px' }}>
-                    <strong style={{ color: 'rgba(255,255,255,0.8)' }}>Vivek Hospital, Gurugram</strong><br />
+                    <strong style={{ color: 'rgba(255,255,255,0.8)' }}>Marengo Asia Hospitals, Gurugram</strong><br />
                     CH Baktawar Singh Rd, Sector 38,<br />
                     Gurugram, Haryana 122001
                   </li>
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
                     📞 <a href="tel:+911244141414" style={{ color: 'var(--accent-light)' }}>+91-124-4141414</a>
                   </li>
                   <li>
-                    📧 <a href="mailto:info@vivekhospital.com" style={{ color: 'var(--accent-light)' }}>info@vivekhospital.com</a>
+                    📧 <a href="mailto:info@marengoasiahospitals.com" style={{ color: 'var(--accent-light)' }}>info@marengoasiahospitals.com</a>
                   </li>
                   <li style={{ marginTop: '16px' }}>
                     <strong style={{ color: 'rgba(255,255,255,0.8)' }}>Emergency (24/7)</strong><br />
@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
               </div>
             </div>
             <div className="footer-bottom">
-              <p>© {new Date().getFullYear()} Vivek Hospital. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Marengo Asia Hospitals. All rights reserved.</p>
               <div style={{ display: 'flex', gap: '24px' }}>
                 <Link href="/privacy-policy">Privacy Policy</Link>
                 <Link href="/terms">Terms & Conditions</Link>

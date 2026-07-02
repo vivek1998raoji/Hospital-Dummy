@@ -28,7 +28,7 @@ export default function CareersPage() {
       <section className="page-header">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div className="breadcrumb"><Link href="/">Home</Link><span className="breadcrumb-sep">/</span><span>Careers</span></div>
-          <h1>Careers at Vivek Hospital</h1>
+          <h1>Careers at Marengo Asia Hospitals</h1>
           <p>Join India&apos;s most trusted hospital network and make a difference in healthcare every day</p>
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function CareersPage() {
         <div className="container">
           <div className="section-header">
             <div className="section-eyebrow">🌟 Why Join Us</div>
-            <h2 className="section-title">Why Work at Vivek Hospital?</h2>
+            <h2 className="section-title">Why Work at Marengo Asia Hospitals?</h2>
           </div>
           <div className="grid-4 grid">
             {values.map((v, i) => (

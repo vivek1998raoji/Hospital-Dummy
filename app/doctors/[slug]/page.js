@@ -25,7 +25,7 @@ export default function DoctorDetailPage() {
         // Dynamic client-side SEO update
         if (d) {
           // Meta Title
-          document.title = d.metaTitle || `${d.name} - ${d.designation} | Vivek Hospital`;
+          document.title = d.metaTitle || `${d.name} - ${d.designation} | Marengo Asia Hospitals`;
           
           // Meta Description
           let metaDesc = document.querySelector('meta[name="description"]');
@@ -34,7 +34,7 @@ export default function DoctorDetailPage() {
             metaDesc.setAttribute('name', 'description');
             document.head.appendChild(metaDesc);
           }
-          metaDesc.setAttribute('content', d.metaDescription || `Book an appointment with ${d.name}, leading ${d.designation} at Vivek Hospital.`);
+          metaDesc.setAttribute('content', d.metaDescription || `Book an appointment with ${d.name}, leading ${d.designation} at Marengo Asia Hospitals.`);
 
           // Meta Keywords
           let metaKeys = document.querySelector('meta[name="keywords"]');
@@ -43,7 +43,7 @@ export default function DoctorDetailPage() {
             metaKeys.setAttribute('name', 'keywords');
             document.head.appendChild(metaKeys);
           }
-          metaKeys.setAttribute('content', d.metaKeywords || `${d.name}, ${d.speciality}, Vivek Hospital`);
+          metaKeys.setAttribute('content', d.metaKeywords || `${d.name}, ${d.speciality}, Marengo Asia Hospitals`);
 
           // Canonical URL
           let canonical = document.querySelector('link[rel="canonical"]');
@@ -210,7 +210,7 @@ export default function DoctorDetailPage() {
                   📅 Book Appointment
                 </h3>
                 <p style={{ fontSize: '14px', color: 'var(--gray-500)', lineHeight: 1.7, marginBottom: '20px' }}>
-                  Consult with {doctor.name} at Vivek Hospital, {doctor.location}. Same-day appointments available.
+                  Consult with {doctor.name} at Marengo Asia Hospitals, {doctor.location}. Same-day appointments available.
                 </p>
                 <Link href={`/book?doctor=${doctor.slug}`} className="btn btn-primary" style={{ width: '100%' }}>
                   Book Now →
@@ -226,7 +226,7 @@ export default function DoctorDetailPage() {
                 <h3 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '20px', color: 'var(--gray-900)' }}>Quick Info</h3>
                 {[
                   { label: 'Speciality', value: doctor.speciality, icon: '❤️' },
-                  { label: 'Hospital', value: `Vivek Hospital, ${doctor.location}`, icon: '🏥' },
+                  { label: 'Hospital', value: `Marengo Asia Hospitals, ${doctor.location}`, icon: '🏥' },
                   { label: 'Experience', value: doctor.experience, icon: '🕐' },
                   { label: 'Designation', value: doctor.designation, icon: '👔' },
                 ].map((item, i) => (

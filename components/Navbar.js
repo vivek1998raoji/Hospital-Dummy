@@ -11,8 +11,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container">
         <Link href="/" className="navbar-brand" onClick={closeMobile}>
-          <span className="brand-icon">🏥</span>
-          Vivek Hospital
+          <img src="/marengo-logo.png" alt="Marengo Asia Hospitals" style={{ height: '42px', width: 'auto', display: 'block' }} />
         </Link>
 
         <button className="menu-toggle" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle menu">
@@ -52,11 +51,9 @@ export default function Navbar() {
               </Link>
               <ul className="dropdown-menu">
                 <li><Link href="/locations/gurugram" onClick={closeMobile}><span className="dropdown-icon">🏙️</span> Gurugram</Link></li>
-                <li><Link href="/locations/lucknow" onClick={closeMobile}><span className="dropdown-icon">🕌</span> Lucknow</Link></li>
-                <li><Link href="/locations/patna" onClick={closeMobile}><span className="dropdown-icon">🏛️</span> Patna</Link></li>
-                <li><Link href="/locations/indore" onClick={closeMobile}><span className="dropdown-icon">🌆</span> Indore</Link></li>
-                <li><Link href="/locations/noida" onClick={closeMobile}><span className="dropdown-icon">🌃</span> Noida</Link></li>
-                <li><Link href="/locations/ranchi" onClick={closeMobile}><span className="dropdown-icon">🏞️</span> Ranchi</Link></li>
+                <li><Link href="/locations/faridabad" onClick={closeMobile}><span className="dropdown-icon">🏙️</span> Faridabad</Link></li>
+                <li><Link href="/locations/ahmedabad" onClick={closeMobile}><span className="dropdown-icon">🌆</span> Ahmedabad</Link></li>
+                <li><Link href="/locations/bhuj" onClick={closeMobile}><span className="dropdown-icon">🏞️</span> Bhuj</Link></li>
                 <li><Link href="/locations" onClick={closeMobile}><span className="dropdown-icon">➡️</span> <strong>All Hospitals</strong></Link></li>
               </ul>
             </li>

@@ -104,7 +104,7 @@ export default function AdminLocationsPage() {
             </div>
             <div className="form-group">
               <label className="form-label">Building Image Alt Text (SEO Accessibility)</label>
-              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Vivek Hospital Gurugram Building Front Facade" />
+              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Marengo Asia Hospitals Gurugram Building Front Facade" />
             </div>
             <div className="form-group" style={{ gridColumn: '1 / -1' }}>
               <label className="form-label">Hospital Branch Description</label>
@@ -141,7 +141,7 @@ export default function AdminLocationsPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Title</label>
-                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Best Multi-Speciality Hospital in Noida | Vivek Hospital" />
+                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Best Multi-Speciality Hospital in Noida | Marengo Asia Hospitals" />
                     </div>
                     <div className="form-group">
                       <label className="form-label">SEO Meta Keywords</label>
@@ -149,11 +149,11 @@ export default function AdminLocationsPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Canonical URL</label>
-                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://vivekhospital.com/locations/noida" />
+                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://marengoasiahospitals.com/locations/noida" />
                     </div>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Description</label>
-                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Consult Noida's top specialists at Vivek Hospital. Featuring state-of-the-art modular OTs, 350 beds, and certified medical packages." />
+                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Consult Noida's top specialists at Marengo Asia Hospitals. Featuring state-of-the-art modular OTs, 350 beds, and certified medical packages." />
                     </div>
                   </div>
 
@@ -163,7 +163,7 @@ export default function AdminLocationsPage() {
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                       <div className="form-group">
                         <label className="form-label">OG Title</label>
-                        <input className="form-input" value={editing.ogTitle || ''} onChange={e => setEditing({...editing, ogTitle: e.target.value})} placeholder="Vivek Hospital Noida Branch Sharing Title" />
+                        <input className="form-input" value={editing.ogTitle || ''} onChange={e => setEditing({...editing, ogTitle: e.target.value})} placeholder="Marengo Asia Hospitals Noida Branch Sharing Title" />
                       </div>
                       <div className="form-group">
                         <label className="form-label">OG Image URL</label>

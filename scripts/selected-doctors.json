@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Dr. Aakriti Aggarwal",
+    "slug": "dr-aakriti-aggarwal",
+    "speciality": "Foetal Medicine & Medical Genetics",
+    "designation": "Group Head – Medical Genetics & Genetic Counselling",
+    "experience": "8+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-aakriti-aggarwal.jpg"
+  },
+  {
+    "name": "Dr. (Air Cmde) Krishan Kumar Yadav",
+    "slug": "dr-krishan-kumar-yadav-neurosurgeon-gurugram",
+    "speciality": "Neurosurgery",
+    "designation": "Professor & Clinical Director- Neurosurgery & Neurospine Surgery",
+    "experience": "35+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-krishan-kumar-yadav-neurosurgeon-gurugram.png"
+  },
+  {
+    "name": "Dr. (Brig) Anil Kumar Dhar",
+    "slug": "dr-brig-anil-kumar-dhar-oncologist-gurugram",
+    "speciality": "Cancer Care / Oncology",
+    "designation": "Clinical Director and Head - Medical Oncology",
+    "experience": "35+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-brig-anil-kumar-dhar-oncologist-gurugram.jpg"
+  },
+  {
+    "name": "Dr. Abhishek Kumar Gupta",
+    "slug": "dr-abhishek-kumar-gupta-physiotherapist-gurugram",
+    "speciality": "Physiotherapy and Rehabilitation Medicine",
+    "designation": "HOD - Physiotherapy",
+    "experience": "15+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-abhishek-kumar-gupta-physiotherapist-gurugram.jpg"
+  },
+  {
+    "name": "Dr. Bhanu Madan",
+    "slug": "dr-bhanu-madan-dentist-gurugram",
+    "speciality": "Dental",
+    "designation": "Senior Consultant - Dental Department Implantologist, Maxillofacial Prosthodontist",
+    "experience": "21+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-bhanu-madan-dentist-gurugram.png"
+  },
+  {
+    "name": "Dr. Dheeraj Gupta",
+    "slug": "dr-dheeraj-gupta-eye-specialist-gurugram",
+    "speciality": "Eye Care / Ophthalmology",
+    "designation": "Senior Consultant – Ophthalmology",
+    "experience": "26+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-dheeraj-gupta-eye-specialist-gurugram.jpg"
+  },
+  {
+    "name": "Dr. Diksha Goyal",
+    "slug": "dr-diksha-goyal-general-physician-gurugram",
+    "speciality": "Internal Medicine",
+    "designation": "Consultant - Internal Medicine",
+    "experience": "6+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-diksha-goyal-general-physician-gurugram.png"
+  },
+  {
+    "name": "Dr. Indrajit Agrawal",
+    "slug": "dr-indrajit-agrawal-rheumatologist-gurugram",
+    "speciality": "Rheumatology",
+    "designation": "Clinical Director - Rheumatology",
+    "experience": "25+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-indrajit-agrawal-rheumatologist-gurugram.png"
+  },
+  {
+    "name": "Dr. Kripesh Chaubey",
+    "slug": "dr-kripesh-chaubey",
+    "speciality": "Urology and Renal Transplantation",
+    "designation": "Associate Consultant - Urology & Renal Transplant",
+    "experience": "5+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-kripesh-chaubey.png"
+  },
+  {
+    "name": "Dr. Neeraj Gupta",
+    "slug": "dr-neeraj-gupta-pulmonologist-gurugram",
+    "speciality": "Pulmonology",
+    "designation": "Clinical Director: Pulmonology, Respiratory Critical Care & Sleep Medicine",
+    "experience": "20+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-neeraj-gupta-pulmonologist-gurugram.png"
+  },
+  {
+    "name": "Dr. Pallavi Vasal",
+    "slug": "dr-pallavi-vasal-gynaecologist-gurugram",
+    "speciality": "Obstetrics and Gynaecology",
+    "designation": "Clinical Director - Obstetrics and Gynaecology",
+    "experience": "16+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-pallavi-vasal-gynaecologist-gurugram.jpg"
+  },
+  {
+    "name": "Dr. Pankaj Khatana",
+    "slug": "dr-pankaj-khatana-general-physician-gurugram",
+    "speciality": "General Medicine",
+    "designation": "Senior Consultant, Internal Medicine",
+    "experience": "10+ Years",
+    "location": "Gurugram",
+    "imageUrl": "/doctors/dr-pankaj-khatana-general-physician-gurugram.png"
+  },
+  {
+    "name": "Dr. Aashish Amar",
+    "slug": "dr-aashish-amar-eye-specialist-faridabad",
+    "speciality": "Eye Care / Ophthalmology",
+    "designation": "Senior Consultant - Ophthalmology",
+    "experience": "21+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-aashish-amar-eye-specialist-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Anil K V Minz",
+    "slug": "dr-anil-k-v-minz-dermatologist-faridabad",
+    "speciality": "Dermatology",
+    "designation": "Sr. Consultant – Dermatology",
+    "experience": "20+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-anil-k-v-minz-dermatologist-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Anurag Aggarwal",
+    "slug": "dr-anurag-aggarwal-joint-replacement-surgeon-faridabad",
+    "speciality": "Orthopaedics & Joint Replacement",
+    "designation": "Program Clinical Director - Orthopaedics & Joint Replacement",
+    "experience": "16+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-anurag-aggarwal-joint-replacement-surgeon-faridabad.png"
+  },
+  {
+    "name": "Dr. Bharat Nair",
+    "slug": "dr-bharat-nair-liver-transplant-surgeon-faridabad",
+    "speciality": "Liver Transplant and Biliary Sciences",
+    "designation": "Consultant - Liver Transplant and Biliary Sciences",
+    "experience": "10+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-bharat-nair-liver-transplant-surgeon-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Bir Singh Sehrawat",
+    "slug": "dr-bir-singh-sehrawat-gastroenterologist-faridabad",
+    "speciality": "Gastroenterology",
+    "designation": "Program Clinical Director & HOD - Gastroenterology",
+    "experience": "16+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-bir-singh-sehrawat-gastroenterologist-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Deepali Gaur",
+    "slug": "dr-deepali-gaur-paediatrician-faridabad",
+    "speciality": "Neonatology",
+    "designation": "Consultant - Paediatrics",
+    "experience": "13+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-deepali-gaur-paediatrician-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Jaya Sukul",
+    "slug": "dr-jaya-sukul-psychologist-faridabad",
+    "speciality": "Clinical Psychology",
+    "designation": "Consultant & HOD - Clinical Psychology",
+    "experience": "12+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-jaya-sukul-psychologist-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Kapil Chauhan",
+    "slug": "dr-kapil-chauhan-physiotherapist-faridabad",
+    "speciality": "Physiotherapy and Rehabilitation Medicine",
+    "designation": "HOD",
+    "experience": "15+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-kapil-chauhan-physiotherapist-faridabad.jpg"
+  },
+  {
+    "name": "Dr. Manisha Chakrabarti",
+    "slug": "dr-manisha-chakrabarti-cardiologist-faridabad",
+    "speciality": "Cardiac Sciences",
+    "designation": "Senior Consultant - Paediatric Cardiology",
+    "experience": "23+ Years",
+    "location": "Faridabad",
+    "imageUrl": "/doctors/dr-manisha-chakrabarti-cardiologist-faridabad.png"
+  },
+  {
+    "name": "Dr. Ajay Kumar Jain",
+    "slug": "dr-ajay-kumar-jain-pulmonologist-ahmedabad",
+    "speciality": "Critical Care",
+    "designation": "Consultant Pulmonologist, Bronchoscopist, Sleep Disorders Specialist & Critical Care Specialist Fellow Medical Thoracoscopy (Greece)",
+    "experience": "25+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-ajay-kumar-jain-pulmonologist-ahmedabad.png"
+  },
+  {
+    "name": "Dr. Anand Bhanupriya",
+    "slug": "dr-anand-bhanupriya-radiologist-ahmedabad",
+    "speciality": "Radiology",
+    "designation": "Consultant - Radiologist",
+    "experience": "7+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-anand-bhanupriya-radiologist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Ankit D Patel",
+    "slug": "dr-ankit-d-patel",
+    "speciality": "Pulmonology",
+    "designation": "Consultant – Interventional Pulmonology & Critical Care Medicine",
+    "experience": "4+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-ankit-d-patel.jpg"
+  },
+  {
+    "name": "Dr. Bhavesh B Parekh",
+    "slug": "dr-bhavesh-b-parekh-oncologist-ahmedabad",
+    "speciality": "Cancer Care / Oncology",
+    "designation": "Head - Medical Oncology",
+    "experience": "2+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-bhavesh-b-parekh-oncologist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Bhavesh Thakkar",
+    "slug": "dr-bhavesh-thakkar-gastroenterologist-ahmedabad",
+    "speciality": "Gastroenterology",
+    "designation": "Consultant - Gastroenterologist",
+    "experience": "13+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-bhavesh-thakkar-gastroenterologist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Chintan Sheth",
+    "slug": "dr-chintan-sheth-critical-care-specialist-ahmedabad",
+    "speciality": "Cardiac Sciences",
+    "designation": "Consultant - Anaesthesiologist and Critical Care Specialist",
+    "experience": "10+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-chintan-sheth-critical-care-specialist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Chirag Solanki",
+    "slug": "dr-chirag-solanki-neurosurgeon-ahmedabad",
+    "speciality": "Neurosciences",
+    "designation": "Consultant Neurosurgeon (Stereotactic & Functional Neurosurgery Specialist)",
+    "experience": "11+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-chirag-solanki-neurosurgeon-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Harsh Vyas",
+    "slug": "dr-harsh-vyas-foot-and-ankle-surgeon-ahmedabad",
+    "speciality": "Orthopaedics & Joint Replacement",
+    "designation": "Consultant Foot and Ankle Surgeon",
+    "experience": "3+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-harsh-vyas-foot-and-ankle-surgeon-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Hitesh Desai",
+    "slug": "dr-hitesh-desai-nephrologist-ahmedabad",
+    "speciality": "Nephrology",
+    "designation": "Consultant - Nephrologist",
+    "experience": "1+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-hitesh-desai-nephrologist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Jitendra Patel",
+    "slug": "dr-jitendra-patel-medicine-diabetologist-ahmedabad",
+    "speciality": "Diabetes",
+    "designation": "Clinical Director - Medicine & Diabetology",
+    "experience": "32+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-jitendra-patel-medicine-diabetologist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Mitesh Chandarana",
+    "slug": "dr-mitesh-chandarana-neurologist-ahmedabad",
+    "speciality": "Neurology",
+    "designation": "Consultant - Neurologist, Parkinson’s & Movement Disorders Specialist",
+    "experience": "2+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-mitesh-chandarana-neurologist-ahmedabad.png"
+  },
+  {
+    "name": "Dr. Mona Patel",
+    "slug": "dr-mona-patel-gynaecologist-menopause-specialist-ahmedabad",
+    "speciality": "Obstetrics and Gynaecology",
+    "designation": "Senior Consultant - Gynaecologist & Menopause Specialist",
+    "experience": "26+ Years",
+    "location": "Ahmedabad",
+    "imageUrl": "/doctors/dr-mona-patel-gynaecologist-menopause-specialist-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Amit Chandan",
+    "slug": "dr-amit-chandan-cardiac-surgeon-ahmedabad",
+    "speciality": "Cardiac Sciences",
+    "designation": "Director - Minimal Invasive & Robotic Cardiac Surgery",
+    "experience": "12+ Years",
+    "location": "Bhuj",
+    "imageUrl": "/doctors/dr-amit-chandan-cardiac-surgeon-ahmedabad.jpg"
+  },
+  {
+    "name": "Dr. Maulik Bhensdadia",
+    "slug": "dr-maulik-bhensdadia-radiation-oncologist-ahmedabad",
+    "speciality": "Cancer Care / Oncology",
+    "designation": "Consultant - Radiation Oncologist",
+    "experience": "11+ Years",
+    "location": "Bhuj",
+    "imageUrl": "/doctors/dr-maulik-bhensdadia-radiation-oncologist-ahmedabad.png"
+  },
+  {
+    "name": "Dr. Hiren Kevadiya",
+    "slug": "dr-hiren-kevadiya-cardiologist-ahmedabad",
+    "speciality": "Cardiac Sciences",
+    "designation": "Cardiologist & Cardiac Electrophysiologist",
+    "experience": "4+ Years",
+    "location": "Bhuj",
+    "imageUrl": "/doctors/dr-hiren-kevadiya-cardiologist-ahmedabad.jpg"
+  }
+]

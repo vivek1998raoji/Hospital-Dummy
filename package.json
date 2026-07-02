@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma db push --skip-generate && node prisma/seed.js && next build",
+    "build": "prisma generate && prisma db push --skip-generate && FORCE_SEED=1 node prisma/seed.js && next build",
     "start": "next start",
     "lint": "eslint"
   },

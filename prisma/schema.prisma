@@ -119,7 +119,7 @@ model Blog {
   title       String
   slug        String   @unique
   category    String   @default("Health Tips")
-  author      String   @default("Vivek Hospital")
+  author      String   @default("Marengo Asia Hospitals")
   excerpt     String   @default("")
   content     String   @default("")
   image       String   @default("")

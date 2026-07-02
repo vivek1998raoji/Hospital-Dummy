@@ -24,12 +24,10 @@ export default function ContactPage() {
   };
 
   const hospitals = [
-    { name: 'Gurugram', address: 'CH Baktawar Singh Rd, Sector 38, Gurugram, Haryana 122001', phone: '+91-124-4141414', email: 'gurugram@vivekhospital.com' },
-    { name: 'Lucknow', address: 'Shaheed Path, Sushant Golf City, Lucknow, UP 226030', phone: '+91-522-4141414', email: 'lucknow@vivekhospital.com' },
-    { name: 'Patna', address: 'Beside Mandiri Bypass, Patna, Bihar 801503', phone: '+91-612-4141414', email: 'patna@vivekhospital.com' },
-    { name: 'Indore', address: 'AB Road, Indore, Madhya Pradesh 452001', phone: '+91-731-4141414', email: 'indore@vivekhospital.com' },
-    { name: 'Noida', address: 'Sector 128, Noida, Uttar Pradesh 201304', phone: '+91-120-4141414', email: 'noida@vivekhospital.com' },
-    { name: 'Ranchi', address: 'Ratu Road, Ranchi, Jharkhand 834001', phone: '+91-651-4141414', email: 'ranchi@vivekhospital.com' },
+    { name: 'Gurugram', address: 'Golf Course Ext Rd, Sushant Lok II, Sector 56, Gurugram, Haryana 122011', phone: '1800-309-4444', email: 'gurugram@marengoasiahospitals.com' },
+    { name: 'Faridabad', address: 'Plot No. 1, HUDA Staff Colony, Sector 16, Faridabad, Haryana 121002', phone: '1800-309-2222', email: 'faridabad@marengoasiahospitals.com' },
+    { name: 'Ahmedabad', address: 'Off Science City Rd, Sola, Ahmedabad, Gujarat 380060', phone: '1800-309-2222', email: 'ahmedabad@marengoasiahospitals.com' },
+    { name: 'Bhuj', address: 'Bhuj, Gujarat 370001', phone: '1800-309-2222', email: 'bhuj@marengoasiahospitals.com' },
   ];
 
   return (
@@ -120,7 +118,7 @@ export default function ContactPage() {
                 {[
                   { icon: '📞', label: 'General Enquiry', value: '+91-124-4141414' },
                   { icon: '🚑', label: 'Emergency (24/7)', value: '+91-124-4242424' },
-                  { icon: '📧', label: 'Email', value: 'info@vivekhospital.com' },
+                  { icon: '📧', label: 'Email', value: 'info@marengoasiahospitals.com' },
                   { icon: '💬', label: 'WhatsApp', value: '+91-124-4141414' },
                   { icon: '🌍', label: 'International', value: '+91-124-4343434' },
                 ].map((item, i) => (
@@ -158,7 +156,7 @@ export default function ContactPage() {
             {hospitals.map((h, i) => (
               <div key={i} className="card" style={{ padding: '28px' }}>
                 <h3 style={{ fontSize: '17px', fontWeight: 700, color: 'var(--gray-900)', marginBottom: '12px' }}>
-                  🏥 Vivek Hospital, {h.name}
+                  🏥 Marengo Asia Hospitals, {h.name}
                 </h3>
                 <p style={{ fontSize: '14px', color: 'var(--gray-500)', lineHeight: 1.7, marginBottom: '12px' }}>{h.address}</p>
                 <p style={{ fontSize: '14px', marginBottom: '4px' }}>📞 <a href={`tel:${h.phone.replace(/-/g,'')}`} style={{ color: 'var(--accent)', fontWeight: 600 }}>{h.phone}</a></p>

@@ -133,7 +133,7 @@ export default function AdminPagesPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Canonical URL</label>
-                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://vivekhospital.com/your-page-slug" />
+                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://marengoasiahospitals.com/your-page-slug" />
                     </div>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Description</label>

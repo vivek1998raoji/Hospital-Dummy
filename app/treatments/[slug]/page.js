@@ -32,7 +32,7 @@ export default function TreatmentDetailPage() {
 
         // Dynamic client-side SEO update
         // Meta Title
-        document.title = treat.metaTitle || `${treat.name} Treatment in India - Cost & Doctors | Vivek Hospital`;
+        document.title = treat.metaTitle || `${treat.name} Treatment in India - Cost & Doctors | Marengo Asia Hospitals`;
         
         // Meta Description
         let metaDesc = document.querySelector('meta[name="description"]');
@@ -41,7 +41,7 @@ export default function TreatmentDetailPage() {
           metaDesc.setAttribute('name', 'description');
           document.head.appendChild(metaDesc);
         }
-        metaDesc.setAttribute('content', treat.metaDescription || `Access world-class ${treat.name} treatment at Vivek Hospital. View costs, success rates, and bypass specialists.`);
+        metaDesc.setAttribute('content', treat.metaDescription || `Access world-class ${treat.name} treatment at Marengo Asia Hospitals. View costs, success rates, and bypass specialists.`);
 
         // Meta Keywords
         let metaKeys = document.querySelector('meta[name="keywords"]');
@@ -312,9 +312,9 @@ export default function TreatmentDetailPage() {
 
               <div className="card" style={{ padding: '24px', marginBottom: '24px' }}>
                 <h4 style={{ fontSize: '15px', fontWeight: 700, marginBottom: '16px' }}>🏥 Available At</h4>
-                {['Gurugram', 'Lucknow', 'Noida', 'Patna', 'Indore'].map((loc, i) => (
+                {['Gurugram', 'Faridabad', 'Ahmedabad', 'Bhuj'].map((loc, i) => (
                   <Link key={i} href={`/locations/${loc.toLowerCase()}`} style={{ display: 'block', padding: '10px 0', fontSize: '14px', color: 'var(--gray-600)', borderBottom: i < 4 ? '1px solid var(--gray-100)' : 'none', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ fontSize: '18px' }}>🏥</span> Vivek Hospital, {loc}
+                    <span style={{ fontSize: '18px' }}>🏥</span> Marengo Asia Hospitals, {loc}
                   </Link>
                 ))}
               </div>

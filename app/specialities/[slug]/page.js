@@ -39,7 +39,7 @@ export default function SpecialityDetailPage() {
 
         // Dynamic client-side SEO update
         // Meta Title
-        document.title = spec.metaTitle || `${spec.name} - Super Speciality Care | Vivek Hospital`;
+        document.title = spec.metaTitle || `${spec.name} - Super Speciality Care | Marengo Asia Hospitals`;
         
         // Meta Description
         let metaDesc = document.querySelector('meta[name="description"]');
@@ -48,7 +48,7 @@ export default function SpecialityDetailPage() {
           metaDesc.setAttribute('name', 'description');
           document.head.appendChild(metaDesc);
         }
-        metaDesc.setAttribute('content', spec.metaDescription || `Consult top specialists in ${spec.name} at Vivek Hospital. World-class technology and outcomes.`);
+        metaDesc.setAttribute('content', spec.metaDescription || `Consult top specialists in ${spec.name} at Marengo Asia Hospitals. World-class technology and outcomes.`);
 
         // Meta Keywords
         let metaKeys = document.querySelector('meta[name="keywords"]');
@@ -142,7 +142,7 @@ export default function SpecialityDetailPage() {
             <span>{speciality.name}</span>
           </div>
           <div style={{ fontSize: '64px', marginBottom: '16px' }}>{speciality.icon}</div>
-          <h1>{speciality.name} at Vivek Hospital</h1>
+          <h1>{speciality.name} at Marengo Asia Hospitals</h1>
           <p style={{ maxWidth: '700px', margin: '0 auto', marginTop: '12px', fontSize: '18px', opacity: 0.9 }}>
             {content.tagline}
           </p>
@@ -172,7 +172,7 @@ export default function SpecialityDetailPage() {
         <div className="container" style={{ maxWidth: '960px' }}>
           <div className="section-header" style={{ textAlign: 'left', marginLeft: 0, maxWidth: '100%' }}>
             <div className="section-eyebrow">📋 Overview</div>
-            <h2 className="section-title">About {speciality.name} at Vivek Hospital</h2>
+            <h2 className="section-title">About {speciality.name} at Marengo Asia Hospitals</h2>
           </div>
           <div 
             style={{ fontSize: '15px', color: 'var(--gray-600)', lineHeight: 2 }}
@@ -185,8 +185,8 @@ export default function SpecialityDetailPage() {
       <section className="section section--alt">
         <div className="container">
           <div className="section-header">
-            <div className="section-eyebrow">🏆 Why Choose Vivek Hospital</div>
-            <h2 className="section-title">Why Choose Vivek Hospital for {speciality.name}?</h2>
+            <div className="section-eyebrow">🏆 Why Choose Marengo Asia Hospitals</div>
+            <h2 className="section-title">Why Choose Marengo Asia Hospitals for {speciality.name}?</h2>
             <p className="section-subtitle">Our department sets global benchmarks in clinical outcomes, patient safety, and advanced technology</p>
           </div>
           <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))' }}>
@@ -347,7 +347,7 @@ export default function SpecialityDetailPage() {
           <div className="section-header">
             <div className="section-eyebrow">🗺️ Patient Journey</div>
             <h2 className="section-title">What to Expect — Your Treatment Journey</h2>
-            <p className="section-subtitle">A step-by-step guide to your care experience at Vivek Hospital</p>
+            <p className="section-subtitle">A step-by-step guide to your care experience at Marengo Asia Hospitals</p>
           </div>
           {content.journey.split('\n\n').map((step, i) => {
             const parts = step.split(/\*\*(.*?)\*\*/g);
@@ -379,17 +379,15 @@ export default function SpecialityDetailPage() {
           </div>
           <div className="grid-3 grid">
             {[
-              { name: 'Gurugram', beds: '1600', phone: '+91-124-4141414' },
-              { name: 'Lucknow', beds: '550', phone: '+91-522-4141414' },
-              { name: 'Patna', beds: '400', phone: '+91-612-4141414' },
-              { name: 'Indore', beds: '300', phone: '+91-731-4141414' },
-              { name: 'Noida', beds: '350', phone: '+91-120-4141414' },
-              { name: 'Ranchi', beds: '200', phone: '+91-651-4141414' },
+              { name: 'Gurugram', beds: '200', phone: '1800-309-4444' },
+              { name: 'Faridabad', beds: '200', phone: '1800-309-2222' },
+              { name: 'Ahmedabad', beds: '350', phone: '1800-309-2222' },
+              { name: 'Bhuj', beds: '100', phone: '1800-309-2222' },
             ].map((loc, i) => (
               <Link href={`/locations/${loc.name.toLowerCase()}`} key={i} className="card card--interactive" style={{ padding: '24px', display: 'flex', gap: '16px', alignItems: 'center' }}>
                 <div style={{ width: '48px', height: '48px', borderRadius: 'var(--radius-md)', background: 'var(--accent-glow)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '22px', flexShrink: 0 }}>🏥</div>
                 <div>
-                  <h3 style={{ fontSize: '15px', fontWeight: 700, color: 'var(--gray-900)' }}>Vivek Hospital, {loc.name}</h3>
+                  <h3 style={{ fontSize: '15px', fontWeight: 700, color: 'var(--gray-900)' }}>Marengo Asia Hospitals, {loc.name}</h3>
                   <p style={{ fontSize: '13px', color: 'var(--gray-500)' }}>{loc.beds} Beds · {loc.phone}</p>
                 </div>
               </Link>
@@ -403,7 +401,7 @@ export default function SpecialityDetailPage() {
         <div className="container" style={{ maxWidth: '860px' }}>
           <div className="section-header">
             <div className="section-eyebrow">❓ Frequently Asked Questions</div>
-            <h2 className="section-title">FAQs About {speciality.name} at Vivek Hospital</h2>
+            <h2 className="section-title">FAQs About {speciality.name} at Marengo Asia Hospitals</h2>
             <p className="section-subtitle">Answers to the most common questions from our patients</p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>

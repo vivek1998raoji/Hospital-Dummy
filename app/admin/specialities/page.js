@@ -78,7 +78,7 @@ export default function AdminSpecialitiesPage() {
             </div>
             <div className="form-group">
               <label className="form-label">Image Alt Text (SEO Accessibility)</label>
-              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Cardiology Department medical team at Vivek Hospital" />
+              <input className="form-input" value={editing.imageAlt || ''} onChange={e => setEditing({...editing, imageAlt: e.target.value})} placeholder="Cardiology Department medical team at Marengo Asia Hospitals" />
             </div>
             <div className="form-group" style={{ gridColumn: '1 / -1' }}>
               <label className="form-label">Centre Description</label>
@@ -98,7 +98,7 @@ export default function AdminSpecialitiesPage() {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Title</label>
-                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Best Cardiac Sciences Hospital in India | Vivek Hospital" />
+                      <input className="form-input" value={editing.metaTitle || ''} onChange={e => setEditing({...editing, metaTitle: e.target.value})} placeholder="Best Cardiac Sciences Hospital in India | Marengo Asia Hospitals" />
                     </div>
                     <div className="form-group">
                       <label className="form-label">SEO Meta Keywords</label>
@@ -106,11 +106,11 @@ export default function AdminSpecialitiesPage() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Canonical URL</label>
-                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://vivekhospital.com/specialities/cardiac-sciences" />
+                      <input className="form-input" value={editing.canonicalUrl || ''} onChange={e => setEditing({...editing, canonicalUrl: e.target.value})} placeholder="https://marengoasiahospitals.com/specialities/cardiac-sciences" />
                     </div>
                     <div className="form-group" style={{ gridColumn: '1 / -1' }}>
                       <label className="form-label">SEO Meta Description</label>
-                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Vivek Hospital is India's leading cardiac science centre with world-class facilities and top bypass specialists." />
+                      <textarea className="form-input" rows="2" value={editing.metaDescription || ''} onChange={e => setEditing({...editing, metaDescription: e.target.value})} placeholder="Marengo Asia Hospitals is India's leading cardiac science centre with world-class facilities and top bypass specialists." />
                     </div>
                   </div>
 

@@ -11,8 +11,8 @@ export async function generateMetadata() {
     });
     if (page) {
       return {
-        title: page.metaTitle || "Our Hospital Network - Vivek Hospital",
-        description: page.metaDescription || "Find a Vivek Hospital near you. Over 6 multi-super-speciality branches across India.",
+        title: page.metaTitle || "Our Hospital Network - Marengo Asia Hospitals",
+        description: page.metaDescription || "Find a Marengo Asia Hospitals near you. Over 6 multi-super-speciality branches across India.",
         keywords: page.metaKeywords || "hospital locations, medical branches, vivek hospital gurugram"
       };
     }
@@ -20,7 +20,7 @@ export async function generateMetadata() {
     // Fallback
   }
   return {
-    title: "Our Hospital Network - Vivek Hospital",
+    title: "Our Hospital Network - Marengo Asia Hospitals",
     description: "A growing network of super-speciality hospitals across India, bringing world-class healthcare closer to you.",
     keywords: "hospital, healthcare, cardiac surgery, neurosurgery, cancer treatment, organ transplant, India, Gurugram"
   };
@@ -63,7 +63,7 @@ export default async function LocationsPage() {
                   )}
                   <div>
                     <h3 style={{ fontSize: '20px', fontWeight: 700, color: 'var(--gray-900)' }}>
-                      Vivek Hospital, {loc.name}
+                      Marengo Asia Hospitals, {loc.name}
                     </h3>
                     <span className="badge badge--accent" style={{ marginTop: '4px' }}>{loc.beds} Beds</span>
                   </div>
