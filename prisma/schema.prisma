@@ -1,0 +1,199 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Doctor {
+  id           Int      @id @default(autoincrement())
+  name         String
+  slug         String   @unique
+  speciality   String
+  location     String
+  experience   String
+  qualification String  @default("")
+  designation  String   @default("")
+  imageUrl     String
+  about        String?
+  languages    String   @default("English, Hindi")
+  featured     Boolean  @default(false)
+  metaTitle       String   @default("")
+  metaDescription String   @default("")
+  metaKeywords    String   @default("")
+  schemaJson      String   @default("")
+  ogTitle         String   @default("")
+  ogDescription   String   @default("")
+  ogImage         String   @default("")
+  canonicalUrl    String   @default("")
+  robots          String   @default("index, follow")
+  imageAlt        String   @default("")
+  appointments Appointment[]
+}
+
+model Appointment {
+  id        Int      @id @default(autoincrement())
+  doctorId  Int?
+  patient   String
+  phone     String
+  email     String   @default("")
+  date      String
+  time      String
+  message   String   @default("")
+  status    String   @default("Pending")
+  createdAt DateTime @default(now())
+  doctor    Doctor?  @relation(fields: [doctorId], references: [id])
+}
+
+model Speciality {
+  id          Int    @id @default(autoincrement())
+  name        String @unique
+  slug        String @unique
+  icon        String?
+  description String @default("")
+  image       String @default("")
+  featured    Boolean @default(false)
+  metaTitle       String   @default("")
+  metaDescription String   @default("")
+  metaKeywords    String   @default("")
+  schemaJson      String   @default("")
+  ogTitle         String   @default("")
+  ogDescription   String   @default("")
+  ogImage         String   @default("")
+  canonicalUrl    String   @default("")
+  robots          String   @default("index, follow")
+  imageAlt        String   @default("")
+}
+
+model Location {
+  id          Int    @id @default(autoincrement())
+  name        String @unique
+  slug        String @unique
+  address     String @default("")
+  phone       String @default("")
+  beds        String @default("")
+  description String @default("")
+  image       String @default("")
+  mapUrl      String @default("")
+  specialities String   @default("")
+  metaTitle       String   @default("")
+  metaDescription String   @default("")
+  metaKeywords    String   @default("")
+  schemaJson      String   @default("")
+  ogTitle         String   @default("")
+  ogDescription   String   @default("")
+  ogImage         String   @default("")
+  canonicalUrl    String   @default("")
+  robots          String   @default("index, follow")
+  imageAlt        String   @default("")
+}
+
+model Treatment {
+  id          Int    @id @default(autoincrement())
+  name        String
+  slug        String @unique
+  speciality  String
+  description String @default("")
+  overview    String @default("")
+  symptoms    String @default("")
+  causes      String @default("")
+  diagnosis   String @default("")
+  treatmentOptions String @default("")
+  image       String @default("")
+  metaTitle       String   @default("")
+  metaDescription String   @default("")
+  metaKeywords    String   @default("")
+  schemaJson      String   @default("")
+  ogTitle         String   @default("")
+  ogDescription   String   @default("")
+  ogImage         String   @default("")
+  canonicalUrl    String   @default("")
+  robots          String   @default("index, follow")
+  imageAlt        String   @default("")
+}
+
+model Blog {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String   @default("Health Tips")
+  author      String   @default("Vivek Hospital")
+  excerpt     String   @default("")
+  content     String   @default("")
+  image       String   @default("")
+  publishedAt DateTime @default(now())
+  featured    Boolean  @default(false)
+}
+
+model HealthCheckup {
+  id          Int    @id @default(autoincrement())
+  name        String
+  slug        String @unique
+  price       String @default("")
+  tests       String @default("")
+  description String @default("")
+  image       String @default("")
+  popular     Boolean @default(false)
+}
+
+model Career {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  department  String
+  location    String
+  type        String   @default("Full-time")
+  experience  String   @default("")
+  description String   @default("")
+  requirements String  @default("")
+  postedAt    DateTime @default(now())
+  active      Boolean  @default(true)
+}
+
+model Service {
+  id          Int    @id @default(autoincrement())
+  name        String
+  slug        String @unique
+  category    String @default("Patient Services")
+  description String @default("")
+  icon        String @default("")
+}
+
+model ContactInquiry {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String   @default("")
+  subject   String   @default("")
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model Testimonial {
+  id          Int    @id @default(autoincrement())
+  patient     String
+  location    String @default("")
+  content     String
+  rating      Int    @default(5)
+  image       String @default("")
+  featured    Boolean @default(false)
+}
+
+model Page {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique
+  title           String
+  metaTitle       String   @default("")
+  metaDescription String   @default("")
+  metaKeywords    String   @default("")
+  content         String   @default("")
+  schemaJson      String   @default("")
+  ogTitle         String   @default("")
+  ogDescription   String   @default("")
+  ogImage         String   @default("")
+  canonicalUrl    String   @default("")
+  robots          String   @default("index, follow")
+}
+
