@@ -2,6 +2,15 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
 async function main() {
+  // Idempotency guard: if the database already has content, don't wipe/reseed.
+  // This lets the seed run safely on every deploy (it only populates an empty DB).
+  // To force a full reset + reseed, run with FORCE_SEED=1.
+  const existing = await prisma.location.count();
+  if (existing > 0 && process.env.FORCE_SEED !== '1') {
+    console.log(`⏩ Database already seeded (${existing} locations) — skipping. Set FORCE_SEED=1 to reseed.`);
+    return;
+  }
+
   // Clear all tables
   await prisma.appointment.deleteMany();
   await prisma.contactInquiry.deleteMany();
